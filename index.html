@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h3>Contact Form</h3>
+    <form id="contact-form">
+      <input
+        id="name"
+        name="contact_name"
+        type="text"
+        placeholder="First and last name"
+        required
+      />
+      <input
+        id="email"
+        name="contact_email"
+        type="email"
+        placeholder="Email address"
+        required
+      />
+      <input
+        id="message"
+        name="message"
+        type="text"
+        placeholder="Your message ..."
+        required
+      />
+      <button type="submit">Send email</button>
+    </form>
+
+    <div id="modal" class="modal-container">
+      <div class="modal-content">
+        <h2>Modal Content</h2>
+        <p>This is a simple modal dialog. but this is looo o ooooo ooooo onger</p>
+        <button id="closeModalBtn">Close</button>
+      </div>
+    </div>
+  </body>
+</html>
